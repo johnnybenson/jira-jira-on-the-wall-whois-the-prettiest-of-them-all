@@ -1,0 +1,206 @@
+.ghx-backlog-container .iic .iic-widget
+{
+    margin: 1em 0;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+}
+
+.ghx-backlog-container .iic .iic-trigger button
+{
+    background: #acd373;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    line-height: 40px;
+    margin: 20px 30px 20px 10px;
+    padding: 0 15px 0 40px;
+    position: relative;
+    text-align: left;
+    width: auto;
+}
+
+.ghx-backlog-container .iic .iic-trigger button::before
+{
+    bottom: 0;
+    font-size: 28px;
+    font-weight: bold;
+    height: auto;
+    left: 0;
+    line-height: 40px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 40px;
+}
+
+.ghx-backlog-container .iic .iic-trigger button:active,
+.ghx-backlog-container .iic .iic-trigger button:hover
+{
+    background: #bee685;
+}
+
+.ghx-classification-item .ghx-classification-progress
+{
+    display: none;
+}
+
+.ghx-classification-item .ghx-expander
+{
+    bottom: 0;
+    height: auto;
+    top: 0;
+}
+
+.ghx-classification-item .ghx-expander:hover
+{
+    background: #f8f8f8;
+}
+
+.ghx-classification-item .ghx-header,
+.ghx-classification-item .ghx-expanded
+{
+    margin: 0 5px
+;
+}
+
+.ghx-classification-item .ghx-name
+{
+    font-size: 12px;
+    position: relative;
+}
+
+.ghx-classification-item .ghx-swatch
+{
+    border: none;
+    border-radius: 50%;
+    height: 20px;
+    padding: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+}
+
+.ghx-classification-item .ghx-swatch::after
+{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ghx-classification-item .ghx-swatch:hover
+{
+    background-color: #222;
+}
+
+.ghx-column-headers .ghx-column
+{
+    border-bottom: none;
+}
+
+.ghx-column-headers .ghx-column h2
+{
+    color: #444;
+    font-weight: bold;
+}
+
+.ghx-columns .ghx-column
+{
+    background: #fafafa;
+}
+
+.ghx-flags
+{
+    display: none;
+}
+
+.ghx-issue-compact
+{
+    border: none;
+    color: #555 ;
+    border-radius: 3px;
+}
+
+.ghx-issue:hover,
+.ghx-issue:hover .ghx-end,
+.ghx-issue-compact:hover,
+.ghx-issue-compact:hover .ghx-end,
+.ghx-issue-compact.ghx-selected:hover .ghx-end,
+.ghx-issue-compact.ghx-flagged:hover .ghx-end,
+.ghx-issue-compact.ghx-flagged.ghx-selected:hover .ghx-end
+{
+    background: #fafafa;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.ghx-issue-compact .ghx-end
+{
+    display: inline-block;
+    padding: 0;
+}
+
+.ghx-issue-compact .ghx-issue-content
+{
+    padding-left: 0;
+}
+
+.ghx-issue .aui-label
+{
+    font-size: 12px;
+}
+
+.ghx-issue-compact .ghx-label-single
+{
+    display: inline-block;
+    line-height: 19px;
+    padding: 0 6px;
+    max-width: none;
+    font-size: 12px;
+}
+
+.ghx-issue-compact .ghx-row
+{
+    margin: 10px;
+}
+
+.ghx-issue .aui-badge,
+.ghx-issue .ghx-avatar-img,
+.ghx-issue-compact .ghx-statistic-badge,
+.ghx-issue-compact .ghx-avatar-img
+{
+    background: #fdfdfd;
+    border-radius: 3px;
+    color: #222;
+    box-shadow: 0 0 1px rgba(0,0,0,0.123);
+    height: 21px;
+    line-height: 21px;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    width: 21px;
+}
+
+.ghx-swimlane .ghx-issue
+{
+    border: none;
+}
+
+.ghx-swimlane .ghx-issue-content
+{
+    padding: 10px;
+}
+
+.ghx-priority img
+{
+    display: none;
+}
+
+.ghx-type img
+{
+    display: none;
+}
+
