@@ -184,6 +184,24 @@
     width: 21px;
 }
 
+.ghx-issue-compact.ghx-done
+{
+    opacity: 0.5;
+}
+
+.ghx-issue-compact.ghx-done:hover,
+.ghx-issue-compact.ghx-done:focus
+{
+    opacity: 1;
+}
+
+.ghx-issue-compact.ghx-done .ghx-key a
+{
+    text-decoration: none;
+    color: #999;
+    font-style: italic;
+}
+
 .ghx-swimlane .ghx-issue
 {
     border: none;
